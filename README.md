@@ -21,9 +21,9 @@ Prerequisites
 
 You will need Python 3.9+ and the following free API keys:
 
-Google Gemini API Key: Get it here (Free Tier available)
+Google Gemini API Key(Free Tier available)
 
-Murf.ai API Key: Get it here (Free Trial available)
+Murf.ai API Key(Free Trial available)
 
 Installation
 
