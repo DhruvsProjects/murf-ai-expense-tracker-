@@ -32,15 +32,15 @@ Installation
 
 Install system dependencies (for PyAudio):
 
-Mac: '''brew install portaudio'''
+Mac: ```brew install portaudio```
 
-Linux (Ubuntu): '''sudo apt-get install python3-pyaudio portaudio19-dev'''
+Linux (Ubuntu): ```sudo apt-get install python3-pyaudio portaudio19-dev```
 
 Windows: Usually pre-installed, but if errors occur, install the specific .whl file for PyAudio.
 
 Install Python libraries:
 
-'''pip install speechrecognition google-generativeai murf pyaudio'''
+```pip install speechrecognition google-generativeai murf pyaudio```
 
 
 Configuration
@@ -63,7 +63,7 @@ How to Use
 
 Run the script:
 
-'''python expense_tracker_complete.py'''
+```python expense_tracker_complete.py```
 
 
 The app will start listening immediately. Speak naturally!
@@ -93,7 +93,7 @@ Exiting:
 Data Storage
 
 Your data is stored locally in expense_history.json. It looks like this:
-'''
+```
 [
   {
     "item": "coffee",
@@ -103,7 +103,7 @@ Your data is stored locally in expense_history.json. It looks like this:
     "date": "2023-10-27"
   }
 ]
-'''
+```
 
 Troubleshooting
 
